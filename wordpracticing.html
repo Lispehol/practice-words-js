@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanaharjoittelu</title>
+    <link rel="stylesheet" href="wordpracticing.css">
+</head>
+<body>
+    <h1>Englannin sanaharjoittelu</h1>
+    <br>
+    <p>Syötä alla olevaan kenttään sanaparina kaikki ne sanat, joita haluat harjoitella. Erottele sanat pilkulla! Syötä vähintään 10 sanaparia.</p>
+    <!-- Lomake sanalistan syöttämiseen -->
+    <div id="input-section">
+        <textarea id="word-list" placeholder="Syötä sanat pilkulla erotettuna, esim. house,talo,car,auto"></textarea><button onclick="addWords()">Lisää sanat</button>
+        <button id="add-words" onclick="startPractice()">Aloita harjoittelu</button>
+    </div>
+    <div>
+        <button onclick="showWords()">Näytä sanat</button>
+        <p id="show"></p>
+    </div>
+
+    <!-- Harjoittelunäkymä -->
+    <div id="practice-section" style="display: none;">
+        <p id="word-to-translate"></p>
+        <input type="text" id="user-translation" placeholder="Kirjoita käännös tähän">
+        <span><button onclick="checkAnswer()">Tarkista vastaus</button></span><span><button id="stop-btn" onclick="stopPractise()">Lopeta harjoittelu</button></span>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="words.js"></script>
+</body>
+</html>
