@@ -40,3 +40,6 @@ button:hover {
     background-color: #5eaafa;
     
 }
+button {
+    margin: 5px;
+}
