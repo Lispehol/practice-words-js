@@ -1,6 +1,20 @@
-# App for practicing English/Swedish vocabulary
+# Vocabulary Practice App
+This is a simple desktop application designed to help users practice and improve their vocabulary. The app was initially created to support my son in his language learning journey, but it's open to anyone who wants to expand their vocabulary. The app is still quite clunky and improvements are coming (hopefully) soon.
 
-This desktop app has made for my son who is struggling with english and swedish vocabulary. The user enters the words they want to learn,
-and the program gives words to be translated in random order. The program is simple and my purpose is to add new functionalities.
+## Features
+- Word Entry: Users can input the words they wish to lear.
+- Randomized Translation Practice: The app randomly selects words for translation.
+- Simple Interface: The program is easy to use, focusing on learning without unnecessary distractions.
+  
+## Planned Functionality Improvements
+- Improve word entry functionality
+- The user sees the result after completing the exercise
 
+## Installation
+To run the app locally, follow these steps:
+- Clone the repository
+- Navigate to the project folder
+- Open the index.html file in your preferred web browser.
 
+## Contributions
+Feel free to contribute to the project! Open a pull request or issue if you'd like to add new features, suggest improvements, or fix bugs.
